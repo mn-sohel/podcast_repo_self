@@ -1,0 +1,47 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+    padding-left: 0 ;
+    margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Commissioner", sans-serif;
+    }
+/* common css end */
+    
+.nav-item{
+    padding: 0 14px;
+}
+
+.nav-link{
+    color: #62636c;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+
+}
+
+.nav-link:hover{
+    color: #7678ed;
+}
+
+.nav_btn{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 32px;
+    background-color: #7678ed;
+    border: none;
+}

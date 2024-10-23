@@ -538,6 +538,95 @@ body{
 .pricing_box:hover .pricing_btn{
     background-color: #fff;
 }
-
-
 /* Plan part css ends */
+
+/* Testimonial part css starts */
+#testimonial{
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+
+.testimonial_header h4{
+    color: #13132c;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;    
+}
+
+.testimonial_btn button{
+    color: #6062c9;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 32px;
+    background-color: transparent;
+    border: 1px solid #6062c9;
+    transition: all linear 0.3s;
+}
+
+.testimonial_btn button:hover{
+    background-color: #6062c9;
+    color: #fff;
+}
+
+.testimonial_parent{
+    margin-top: 56px;    
+}
+
+.testimonial_item{
+    padding: 24px;
+    border: 1px solid #ddd;
+}
+
+.quatation{
+    position: relative;
+}
+
+.quatation::after{
+    position: absolute;
+    content: "";
+    left: 32px;
+    top: 60%;
+    width: 298px;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.testimonial_item p{
+    color: #62636c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    font-style: italic;
+    padding-right: 60px;
+
+}
+
+.reviewer{
+    column-gap: 16px;
+    margin-top: 32px;
+}
+.reviewer .reviewer_image{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.reviewer .reviewer_content h6{
+    color: #13132c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.reviewer .reviewer_content span{
+    color: #898998;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+/* Testimonial part css ends */

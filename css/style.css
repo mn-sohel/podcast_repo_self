@@ -257,14 +257,287 @@ body{
 .service_right img{
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
 /* Service part css ends */
+
+/* Popular part css starts */
+#popular{
+    background-color: #fafafa;
+    padding: 64px 0;
+}
+
+.popular_header h4{
+    color: #13132c;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+
+.popular_header p{
+    color: #898998;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 10px;
+}
+
+.popular_tabs{
+    margin-top: 40px;
+}
+
+.popular_btn{
+    margin-bottom: 48px;
+    display: flex;
+    column-gap: 16px;
+    justify-content: center;
+}
+
+.popular_btn button{
+    color: #898998;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 32px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    transition: all linear 0.3s;
+}
+
+.popular_btn button:hover{
+    background-color: #6062c9;
+    color: #fff;
+}
+.popular_item{
+    background-color: #fff;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.popular_item_image{
+    height: 234px;
+    overflow: hidden;
+}
+
+.popular_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popular_item_content{
+    margin-top: 24px;
+}
+
+.left_content h6{
+    color: #13132c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.left_content ul{
+    color: #898998;
+    font-size: 14px;
+    font-weight: 400;
+    column-gap: 16px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.left_content ul li:last-child{
+    position: relative;
+}
+
+.left_content ul li:last-child::after{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #6062c9;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+}
+
+.playbutton{
+    color: #6062c9;
+    font-size: 12px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+}
+
+.popular_more_btn{
+    margin-top: 24px;
+}
+
+.popular_more_btn button{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 32px;
+    background-color: #6062c9;
+    border: 1px solid #6062c9;
+    transition: all linear 0.3s;
+}
+
+.popular_more_btn button:hover{
+    background-color: transparent;
+    color: #7678ED;
+    border: 1px solid #6062c9;
+}
+/* Popular part css ends */
+
+/* Plan part css starts */
+#plan{
+    padding: 48px 0;
+}
+
+.plan_header h4{
+    color: #13132c;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+
+.plan_header p{
+    color: #898998;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 120px;
+    margin-top: 24px;
+}
+
+.plan_btn{
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.plan_btn button{
+    color: #898998;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 32px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    transition: all linear 0.3s;
+}
+
+.plan_btn button:hover{
+    background-color: #6062c9;
+    color: #fff;
+}
+
+.price_plans{
+    margin-top: 48px;
+}
+
+.pricing_box{
+    background-color: #fff;
+    box-shadow: 10px 32px 72px rgba(15, 13, 35, 0.1);
+    padding: 24px;
+    transition: all linear 0.3s;
+}
+
+.pricing_box:hover{
+    background-color: #6062c9;
+}
+
+.pricing_box:hover h4,
+.pricing_box:hover p,
+.pricing_box:hover .price,
+.pricing_box:hover .price strong,
+.pricing_box:hover .pricing_list_service ul li span{
+    color: #fff;
+}
+
+.pricing_box:hover .plan_checkbox{
+    background-color: #fff;
+}
+
+.pricing_box:hover .plan_checkbox i{
+    color: #6062c9;
+}
+
+.pricing_box h4{
+    color: #13132c;
+    font-size: 32px;
+    font-weight: 500;
+
+}
+.pricing_box p{
+    color: #898998;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 50px;
+    margin-top: 24px;
+}
+
+.pricing_box .price{
+    color: #898998;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pricing_box .price strong{
+    color: #13132c;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.pricing_box ul{
+    margin-top: 32px;
+}
+
+.pricing_box li{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 15px;
+}
+
+.pricing_box li .plan_checkbox{
+    color: #fff;
+    font-size: 7px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #7678ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing_box li span{
+    color: #13132c;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pricing_btn{
+    margin-top: 32px;
+}
+
+.pricing_btn button{
+    width: 100%;
+    color: #6062c9;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #6062c9;
+    padding: 14px 0;
+    transition: all linear 0.3s;
+}
+.pricing_box:hover .pricing_btn{
+    background-color: #fff;
+}
+
+
+/* Plan part css ends */

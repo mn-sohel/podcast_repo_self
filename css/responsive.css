@@ -1,225 +1,103 @@
-@media (min-width: 992px) and (max-width: 1199.99px){
-    /* sohel's code */
-    .testimonial_header h4 {
-        font-size: 28px;
-        line-height: 36px;
-    }
-    .quatation::after{
-        width: 215px;
-    }
-    .rewiewer_details h6 {
-        font-size: 14px;
-    
-    }
-    footer {
-        margin-top: 80px;
-        padding-bottom: 50px;
-    }
-    .footer_left p {
-        padding-right: 0px;
-       
-    }
-    
-}
-/* ============================ */
-@media (min-width: 768px) and (max-width: 991.99px){
-    /* sohel's code */
-    .testimonial_header h4 {
-        font-size: 28px;
-        line-height: 36px;
-        text-align: center;
-    }
-    .quatation::after{
-        width: 253px;
-    }
-    footer {
-        margin-top: 80px;
-        padding-bottom: 50px;
-    }
-    .footer_left p {
-        padding-right: 0px;
-       
-    }
-    .footer_lists{
-        margin-top: 32px;
-    }
-    
-}
-/* ============================ */
-@media (min-width: 576px) and (max-width: 767.99px){
-    /* sohel's code */
-    .testimonial_header h4 {
-        font-size: 28px;
-        line-height: 36px;
-        text-align: center;
-    }
-    .quatation::after{
-        width: 253px;
-    }
-    footer {
-        margin-top: 80px;
-        padding-bottom: 50px;
-    }
-    .footer_left p {
-        padding-right: 0px;
-       
-    }
-    .footer_lists{
-        margin-top: 32px;
-    }
-    
-}
-/* ============================ */
-
 @media (max-width: 575.99px){
     .navbar-toggler {
-       border: none;
+        border: none;
     }
     .navbar-toggler:focus {
-         box-shadow: none;
+        box-shadow: none;
     }
     .banner_right {
         width: 275px;
         height: 256px;
         margin-left: auto;
     }
-    .banner_features{
+    .banner_feature{
         transform: scale(0.7);
         top: 12%;
-        left: -100px;
     }
-    #banner .banner_left h1 {
+    .banner_left h1 {
         font-size: 28px;
         line-height: 36px;
         margin-top: 24px;
-        
     }
-    #banner .banner_left p {
+    .banner_left p {
         font-size: 13px;
         line-height: 24px;
-        padding-right: 0px;
-        margin-top: 16px;
+        margin-right: 0;
     }
-    .banner_button {
+    .banner_btn {
         justify-content: center;
     }
-    .numbers_users {
+  
+    .number_users {
         justify-content: center;
     }
-    .numbers_users span strong {
-         font-size: 36px;
-     }
-
-     .blog_taitle h3 {
-        font-size: 24px;
-        line-height: 36px;
-        width: 327px;
+    .number_users span strong {
+        font-size: 36px;
     }
-    .blog_taitle p {
-        width: 327px;
-    }
-    .slider {
-        display: block;
-        margin-top: 32px;
-        margin-bottom: 32px;
-    }
-    .blog_btn {
-        margin-top: 0;
-    }
-
-    /* shihab code  */
-    #episodes{
-        margin-top: 0;
-        padding: 32px 0;
-    }
-
-    #episodes .row1 {
-        margin-top: 0px;
-    }
-    #episodes .row2 {
+    #podcast {
+        padding-top: 40px;
         margin-top: 24px;
     }
-
-    .epi_header h3{
-        font-size: 24px;
-        text-align: center;
-        line-height: 36px; 
-    }
-
-    .epi_header p {
-        margin-top: 16px;
-    }
-
-    .nav_tabs_btn {
-        margin-top: 24px;
-    }
-
-    .nav_tabs_btn .row button{
-        margin-bottom: 16px;
-    }
-    .nav_tabs_btn .row button:last-child{
-        margin-bottom: 0px;
-    }
-
-    .nav_tabs_btn .row .left button{
-        width: 141px;
-        padding: 16px 30px;
-    }
-    .nav_tabs_btn .row .right button{
-        width: 118px;
-    }
-
-    /* pricing code  */
-    #pricing{
-        margin-top: 0;
-        padding-bottom: 24px;
-    }
-
-    
-    #pricing .epi_header h3{
+    .podcast_header h4 {
         font-size: 24px;
         line-height: 36px;
     }
-
-    #pricing .row .epi_header p {
-        padding: 0 24px;
-        margin-top: 16px;
+    .podcast_header p {
+        padding: 0;
     }
-
-    #pricing .row2{
+    .podcast_item {
         margin-top: 32px;
     }
-
-    /* shihab code  */
-
-    /* sohel's code */
-    .testimonial_header h4 {
+    .podcast_item_body p {
+        padding: 0 50px;
+    }
+    #service {
+        padding-bottom: 48px;
+    }
+    .service_left h4 {
         font-size: 28px;
         line-height: 36px;
         text-align: center;
+        margin-top: 24px;
     }
-    .quatation::after{
-        width: 253px;
+    .service_left p {
+        padding-right: 0;
+        text-align: center;
     }
-    footer {
-        margin-top: 80px;
-        padding-bottom: 32px;
+    .list_service{
+        display: flex;
+        justify-content: center;
     }
-    .footer_left p {
-        padding-right: 0px;
-       
+    .service_btn {
+        text-align: center;
     }
-    .footer_lists{
-        margin-top: 32px;
+  
+    #popular {
+        padding: 32px 0;
     }
-    
+    .popular_btn {
+        margin-bottom: 0;
+    }
+    .popular_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .popular_header p {
+        padding: 0;
+    }
+    .left button{
+        width: 141px;
+    }
+    .right button{
+        width: 118px;
+    }
+    .popular_btn .left button{
+        padding: 16px 31px;
+    }
+    .popular_btn .left button,
+    .popular_btn .right button{
+        margin-bottom: 16px;
+    }
+ 
+
 }
-
-
-
-    
-   
-
-}
-
- /* pricing end  */

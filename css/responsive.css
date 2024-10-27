@@ -98,6 +98,472 @@
     .popular_btn .right button{
         margin-bottom: 16px;
     }
- 
-
+    .plan_header h4 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .plan_header p {
+        font-size: 13px;
+        padding: 0;
+        margin-top: 16px;
+    }
+    .plan_btn {
+        margin-top: 24px;
+    }
+    .price_plans {
+        margin-top: 32px;
+    }
+    .pricing_box{
+        margin-bottom: 24px;
+    }
+    #testimonial {
+        padding-bottom: 0px;
+    }
+    .testimonial_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .quatation::after {
+        width: 253px;
+    }
+    .testimonial_item {
+        margin-bottom: 24px;
+    }
+   
+    footer {
+        margin-top: 80px;
+        padding-bottom: 32px;
+    }
+    .footer_left p {
+        padding-right: 0;
+    }
+    .footer_list{
+        margin-top: 32px;
+    }
+}
+/* =================== */
+@media (min-width: 576px) and (max-width: 767.99px){
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .banner_right {
+        width: 442px;
+        height: 387px;
+        margin-left: auto;
+    }
+    .banner_feature {
+        top: 32%;
+    }
+    .banner_left h1 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-top: 24px;
+    }
+    .banner_left p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-right: 0;
+    }
+    .banner_btn {
+        justify-content: center;
+    }
+  
+    .number_users {
+        justify-content: center;
+    }
+    .number_users span strong {
+        font-size: 36px;
+    }
+    #podcast {
+        padding-top: 40px;
+        margin-top: 24px;
+    }
+    .podcast_header h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .podcast_header p {
+        padding: 0;
+    }
+    .podcast_item {
+        margin-top: 32px;
+    }
+    .podcast_item_body h5 {
+        font-size: 18px;
+    }
+    .podcast_item_body p {
+        padding: 0;
+    }
+    #service {
+        padding-bottom: 48px;
+    }
+    .service_left h4 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        margin-top: 24px;
+    }
+    .service_left p {
+        padding-right: 0;
+        text-align: center;
+    }
+    .list_service{
+        display: flex;
+        justify-content: center;
+    }
+    .service_btn {
+        text-align: center;
+    }
+  
+    #popular {
+        padding: 32px 0;
+    }
+    .popular_btn {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        row-gap: 16px;
+    }
+    .popular_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .popular_header p {
+        padding: 0;
+    }
+    .left button{
+        width: 141px;
+    }
+    .right button{
+        width: 118px;
+    }
+    .popular_btn .left button{
+        padding: 16px 31px;
+    }
+    .popular_btn .left button,
+    .popular_btn .right button{
+        margin-bottom: 16px;
+    }
+    .plan_header h4 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .plan_header p {
+        font-size: 13px;
+        padding: 0;
+        margin-top: 16px;
+    }
+    .plan_btn {
+        margin-top: 24px;
+    }
+    .price_plans {
+        margin-top: 32px;
+    }
+    .pricing_box{
+        margin-bottom: 24px;
+    }
+    #testimonial {
+        padding-bottom: 0px;
+    }
+    .testimonial_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .quatation::after {
+        width: 253px;
+    }
+    .testimonial_item {
+        margin-bottom: 24px;
+    }
+  
+    footer {
+        margin-top: 80px;
+        padding-bottom: 32px;
+    }
+    .footer_left p {
+        padding-right: 0;
+    }
+    .footer_list{
+        margin-top: 32px;
+    }
+}
+/* =================== */
+@media (min-width: 768px) and (max-width: 991.99px){
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .banner_right {
+        width: 590px;
+        height: 502px;
+        margin-left: auto;
+    }
+    .banner_feature {
+        top: 45%;
+    }
+    .banner_left h1 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-top: 24px;
+    }
+    .banner_left p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-right: 0;
+    }
+    .banner_btn {
+        justify-content: center;
+    }
+  
+    .number_users {
+        justify-content: center;
+    }
+    .number_users span strong {
+        font-size: 36px;
+    }
+    #podcast {
+        padding-top: 40px;
+        margin-top: 24px;
+    }
+    .podcast_header h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .podcast_header p {
+        padding: 0;
+    }
+    .podcast_item {
+        margin-top: 32px;
+    }
+    .podcast_item_body h5 {
+        font-size: 18px;
+    }
+    .podcast_item_body p {
+        padding: 0;
+    }
+    #service {
+        padding-bottom: 48px;
+    }
+    .service_left h4 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        margin-top: 24px;
+    }
+    .service_left p {
+        padding-right: 0;
+        text-align: center;
+    }
+    .list_service{
+        display: flex;
+        justify-content: center;
+    }
+    .service_btn {
+        text-align: center;
+    }
+  
+    #popular {
+        padding: 32px 0;
+    }
+    .popular_btn {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        row-gap: 16px;
+    }
+    .popular_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .popular_header p {
+        padding: 0;
+    }
+    .left button{
+        width: 141px;
+    }
+    .right button{
+        width: 118px;
+    }
+    .popular_btn .left button{
+        padding: 16px 31px;
+    }
+    .popular_btn .left button,
+    .popular_btn .right button{
+        margin-bottom: 16px;
+    }
+    .plan_header h4 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .plan_header p {
+        font-size: 13px;
+        padding: 0;
+        margin-top: 16px;
+    }
+    .plan_btn {
+        margin-top: 24px;
+    }
+    .price_plans {
+        margin-top: 32px;
+    }
+    .pricing_box{
+        margin-bottom: 24px;
+    }
+    #testimonial {
+        padding-bottom: 0px;
+    }
+    .testimonial_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .quatation::after {
+        width: 253px;
+    }
+    .testimonial_item {
+        margin-bottom: 24px;
+    }
+  
+    footer {
+        margin-top: 80px;
+        padding-bottom: 32px;
+    }
+    .footer_left p {
+        padding-right: 0;
+    }
+    .footer_list{
+        margin-top: 32px;
+    }
+}
+/* =================== */
+@media (min-width: 992px) and (max-width: 1199.99px){
+    #banner{
+        overflow: hidden;
+    }
+    .banner_left h1 {
+        font-size: 47px;
+        line-height: 68px;
+    }
+    .banner_left p {
+        padding-right: 0;
+    }
+    .banner_feature {
+        top: 54%;
+    }
+    #podcast {
+        padding-top: 40px;
+        margin-top: 24px;
+    }
+    .podcast_header h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .podcast_header p {
+        padding: 0;
+    }
+    .podcast_item {
+        margin-top: 32px;
+        padding: 24px 17px;
+    }
+    .podcast_item_body h5 {
+        font-size: 15px;
+    }
+    .podcast_item_body p {
+        padding: 0;
+    }
+    #service {
+        padding-bottom: 48px;
+    }
+    .service_left h4 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-top: 24px;
+    }
+    .service_left p {
+        padding-right: 0;
+    }
+  
+    #popular {
+        padding: 32px 0;
+    }
+    .popular_btn {
+        flex-wrap: wrap;
+        row-gap: 16px;
+    }
+    .popular_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .popular_header p {
+        padding: 0;
+    }
+    .left button{
+        width: 141px;
+    }
+    .right button{
+        width: 118px;
+    }
+    .popular_btn .left button{
+        padding: 16px 31px;
+    }
+    .popular_btn .left button,
+    .popular_btn .right button{
+        margin-bottom: 16px;
+    }
+    .plan_header h4 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .plan_header p {
+        font-size: 13px;
+        padding: 0;
+        margin-top: 16px;
+    }
+    .plan_btn {
+        margin-top: 24px;
+    }
+    .price_plans {
+        margin-top: 32px;
+    }
+    .pricing_box{
+        margin-bottom: 24px;
+    }
+    .pricing_box h4 {
+        font-size: 25px;
+    }
+    .pricing_box p{
+        padding: 0;
+    }
+    #testimonial {
+        padding-bottom: 0px;
+    }
+    .testimonial_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .quatation::after {
+        width: 215px;
+    }
+    .testimonial_item {
+        margin-bottom: 24px;
+    }
+    .reviewer .reviewer_content h6 {
+        font-size: 15px;
+    }
+  
+    footer {
+        margin-top: 80px;
+        padding-bottom: 32px;
+    }
+    .footer_left p {
+        padding-right: 0;
+    }
+    .footer_list{
+        margin-top: 32px;
+    }
 }
